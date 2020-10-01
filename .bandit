@@ -1,0 +1,5 @@
+[bandit]
+# avoid running bandit on installed packages when running locally
+exclude: .env,.venv,env,venv
+# only include specified checks
+tests: B105,B106,B107
